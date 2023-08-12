@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "lioncs.ColorSlider/1.0.0": {
+        "runtime": {
+          "lib/net452/ColorSlider.dll": {
+            "assemblyVersion": "1.0.0.4",
+            "fileVersion": "1.0.0.4"
+          }
+        }
+      },
+      "SipaaFramework/1.1.0": {
+        "runtime": {
+          "lib/net46/SipaaFramework.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "taglib-sharp-netstandard2.0/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/taglib-sharp.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lioncs.ColorSlider/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6xlsZ7on9ZosXGDuFrpMnnX61nhhNVQ6UbqOx7huC0h2fv/b2N6u7bmsXYY+WODpoCyWs9zi8eLGvgyNMqDfTA==",
+      "path": "lioncs.colorslider/1.0.0",
+      "hashPath": "lioncs.colorslider.1.0.0.nupkg.sha512"
+    },
+    "SipaaFramework/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-acX8Hz5lbto9JTGZq3VnXvsFnt3uy9Tgvyj3tqhCnpNqICvVWXenTHxH3wmyV3jUWC8dlpnb68qdbno3IbXqZA==",
+      "path": "sipaaframework/1.1.0",
+      "hashPath": "sipaaframework.1.1.0.nupkg.sha512"
+    },
+    "taglib-sharp-netstandard2.0/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w45LreEPpV/vOfgpYBI1cNqiLvj8yQ8f7kJaMYtzTAsg26ZdHWnh5vPuy2/F9tCKhmgNB0s+zOBwdcEb4qk3Tg==",
+      "path": "taglib-sharp-netstandard2.0/2.1.0",
+      "hashPath": "taglib-sharp-netstandard2.0.2.1.0.nupkg.sha512"
+    }
+  }
+}

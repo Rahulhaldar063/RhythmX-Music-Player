@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "CS7U9BE7VPkTQglujKLCywBFPlaijm09K4+IxVoW/pwf/P53BN5JunKs+gBOkw8geMTJBM5KTRyD3R3WTiOBtg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rahul Haldar\\Desktop\\Projects\\RhythmX\\RhythmX\\RhythmX.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rahul Haldar\\.nuget\\packages\\lioncs.colorslider\\1.0.0\\lioncs.colorslider.1.0.0.nupkg.sha512",
+    "C:\\Users\\Rahul Haldar\\.nuget\\packages\\sipaaframework\\1.1.0\\sipaaframework.1.1.0.nupkg.sha512",
+    "C:\\Users\\Rahul Haldar\\.nuget\\packages\\taglib-sharp-netstandard2.0\\2.1.0\\taglib-sharp-netstandard2.0.2.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'lioncs.ColorSlider 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "lioncs.ColorSlider",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SipaaFramework 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SipaaFramework",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

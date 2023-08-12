@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "lioncs.ColorSlider/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/ColorSlider.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ColorSlider.dll": {}
+        }
+      },
+      "SipaaFramework/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net46/SipaaFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net46/SipaaFramework.dll": {}
+        }
+      },
+      "taglib-sharp-netstandard2.0/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/taglib-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/taglib-sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lioncs.ColorSlider/1.0.0": {
+      "sha512": "6xlsZ7on9ZosXGDuFrpMnnX61nhhNVQ6UbqOx7huC0h2fv/b2N6u7bmsXYY+WODpoCyWs9zi8eLGvgyNMqDfTA==",
+      "type": "package",
+      "path": "lioncs.colorslider/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/ColorSlider.dll",
+        "lioncs.colorslider.1.0.0.nupkg.sha512",
+        "lioncs.colorslider.nuspec"
+      ]
+    },
+    "SipaaFramework/1.1.0": {
+      "sha512": "acX8Hz5lbto9JTGZq3VnXvsFnt3uy9Tgvyj3tqhCnpNqICvVWXenTHxH3wmyV3jUWC8dlpnb68qdbno3IbXqZA==",
+      "type": "package",
+      "path": "sipaaframework/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/SipaaFramework.dll",
+        "sipaaframework.1.1.0.nupkg.sha512",
+        "sipaaframework.nuspec"
+      ]
+    },
+    "taglib-sharp-netstandard2.0/2.1.0": {
+      "sha512": "w45LreEPpV/vOfgpYBI1cNqiLvj8yQ8f7kJaMYtzTAsg26ZdHWnh5vPuy2/F9tCKhmgNB0s+zOBwdcEb4qk3Tg==",
+      "type": "package",
+      "path": "taglib-sharp-netstandard2.0/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/taglib-sharp.dll",
+        "taglib-sharp-netstandard2.0.2.1.0.nupkg.sha512",
+        "taglib-sharp-netstandard2.0.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "SipaaFramework >= 1.1.0",
+      "lioncs.ColorSlider >= 1.0.0",
+      "taglib-sharp-netstandard2.0 >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rahul Haldar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rahul Haldar\\Desktop\\Projects\\RhythmX\\RhythmX\\RhythmX.csproj",
+      "projectName": "RhythmX",
+      "projectPath": "C:\\Users\\Rahul Haldar\\Desktop\\Projects\\RhythmX\\RhythmX\\RhythmX.csproj",
+      "packagesPath": "C:\\Users\\Rahul Haldar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rahul Haldar\\Desktop\\Projects\\RhythmX\\RhythmX\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rahul Haldar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "SipaaFramework": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "lioncs.ColorSlider": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "taglib-sharp-netstandard2.0": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'lioncs.ColorSlider 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "lioncs.ColorSlider",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SipaaFramework 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SipaaFramework",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
